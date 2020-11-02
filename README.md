@@ -44,4 +44,7 @@ As example, stitches some images.
 
 # Examples
 This examples are made using OpenCV test images. Find them in [this OpenCV github repository](https://github.com/opencv/opencv_extra/tree/master/testdata/stitching).
+
+
 Also included some examples using [this project](http://web.cecs.pdx.edu/~fliu/project/stitch/index.htm) images.
+## Bridge
