@@ -143,3 +143,20 @@ This image is composed by 6 images.
      alt="Final boat"
      height="150px"
      style="float: left; margin-right: 10px" />
+
+# Church panorama
+This image uses 2 images with a different point of view with a chuch as interesting point.  
+<img src="input/rusia1.jpg"
+     alt="Church1"
+     height="200px"
+     style="float: left; margin-right: 10px" />
+<img src="input/rusia2.jpg"
+     alt="Church2"
+     height="200px"
+     style="float: left; margin-right: 10px" />  
+     
+The final output is a disaster and the algorithm was not able to stitch both images properly.
+<img src="output/rusia.jpg"
+     alt="Church"
+     height="200px"
+     style="float: left; margin-right: 10px" /> 
