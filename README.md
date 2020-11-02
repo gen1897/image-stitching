@@ -40,7 +40,7 @@ If there are more than two images to be stitched together, this function warps t
 Contains helper functions such as image rescaling, background cropping, etc.
 
 ## run.py
-As example, stitches some images.
+Change the IMAGE_NAME variable to another keyword that appears in the same group of images. The final image will be stored in a the folder output with the name of the keyword as *.jpg*.
 
 # Examples
 This examples are made using OpenCV test images. Find them in [this OpenCV github repository](https://github.com/opencv/opencv_extra/tree/master/testdata/stitching).
@@ -48,3 +48,98 @@ This examples are made using OpenCV test images. Find them in [this OpenCV githu
 
 Also included some examples using [this project](http://web.cecs.pdx.edu/~fliu/project/stitch/index.htm) images.
 ## Bridge
+The first example is a bridge. This one is the easiest one and we can see here the original images.  
+<img src="input/bridge1.jpg"
+     alt="Bridge left"
+     height="200px"
+     style="float: left; margin-right: 10px" />
+&nbsp;&nbsp;&nbsp;
+<img src="input/bridge2.jpg"
+     alt="Bridge right"
+     height="200px"
+     style="float: left; margin-right: 10px" />  
+     
+In the final image, we can see it is difficult to find where the image was wrapped.  
+<img src="output/bridge.jpg"
+     alt="Final bridge"
+     height="200px"
+     style="float: left; margin-right: 10px" />
+     
+## Church
+In this example we can find 3 pictures made with the same point of view. One of this images has color.
+<img src="input/church1.png"
+     alt="Church left"
+     height="300px"
+     style="float: left; margin-right: 10px" />
+<img src="input/church2.png"
+     alt="Church mid"
+     height="300px"
+     style="float: left; margin-right: 10px" />
+<img src="input/church3.png"
+     alt="Church right"
+     height="300px"
+     style="float: left; margin-right: 10px" /> 
+     
+The final image is quite good eventho we can appreciate deformation on right image and a black edge.  
+<img src="output/church.jpg"
+     alt="Final church"
+     height="300px"
+     style="float: left; margin-right: 10px" />
+     
+## Newspaper
+Cover page from a newspaper divided in 4 images.  
+<img src="input/newspaper1.jpg"
+     alt="Newspaper1"
+     height="200px"
+     style="float: left; margin-right: 10px" /> 
+<img src="input/newspaper2.jpg"
+     alt="Newspaper2"
+     height="200px"
+     style="float: left; margin-right: 10px" /> 
+<img src="input/newspaper3.jpg"
+     alt="Newspaper3"
+     height="200px"
+     style="float: left; margin-right: 10px" /> 
+<img src="input/newspaper4.jpg"
+     alt="Newspaper4"
+     height="200px"
+     style="float: left; margin-right: 10px" />   
+     
+We can notice how the upper part is a little bit deformed and some white cuts in the middle of the image.
+<img src="output/newspaper.jpg"
+     alt="Final newspaper"
+     height="200px"
+     style="float: left; margin-right: 10px" /> 
+     
+## Boat
+This image is composed by 6 images.  
+<img src="input/boat1.jpg"
+     alt="Boat1"
+     height="150px"
+     style="float: left; margin-right: 10px" />
+<img src="input/boat2.jpg"
+     alt="boat2"
+     height="150px"
+     style="float: left; margin-right: 10px" />
+<img src="input/boat3.jpg"
+     alt="boat3"
+     height="150px"
+     style="float: left; margin-right: 10px" />  
+<img src="input/boat4.jpg"
+     alt="Boat4"
+     height="150px"
+     style="float: left; margin-right: 10px" />
+<img src="input/boat5.jpg"
+     alt="boat5"
+     height="150px"
+     style="float: left; margin-right: 10px" />
+<img src="input/boat6.jpg"
+     alt="boat6"
+     height="150px"
+     style="float: left; margin-right: 10px" />  
+     
+ In this example we find that using 6 image, some part of the most rightenous image gets cropped and a huge deformation. 
+ <img src="output/boat.jpg"
+     alt="Final boat"
+     height="150px"
+     style="float: left; margin-right: 10px" />
