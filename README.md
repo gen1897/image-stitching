@@ -141,7 +141,7 @@ This image is composed by 6 images.
      height="150px"
      style="float: left; margin-right: 10px" />  
      
- In this example we find that using 6 image, some part of the most rightenous image gets cropped and a huge deformation. 
+ In this example we find that using 6 image, some portion on the right side is missing and we can appreciate a huge deformation. 
  <img src="output/boat.jpg"
      alt="Final boat"
      height="150px"
