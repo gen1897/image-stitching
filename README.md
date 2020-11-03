@@ -1,6 +1,9 @@
 # image-stitching
 Image stitcher using cv2.  
 I am working on a version more mathematicaly based where it is easier to see how every step works.
+Libraries required:  
+- Numpy
+- OpenCV
 
 # How does image stitching works?
 - **Step 1:**
