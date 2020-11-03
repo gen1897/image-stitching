@@ -69,7 +69,7 @@ In the final image, we can see it is difficult to find where the image was wrapp
      style="float: left; margin-right: 10px" />
      
 ## Church
-In this example we can find 3 pictures made with the same point of view. One of this images has color.
+In this example we can find 3 pictures made with the same point of view. One of this images has color.  
 <img src="input/church1.png"
      alt="Church left"
      height="300px"
